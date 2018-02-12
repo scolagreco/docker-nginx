@@ -1,7 +1,7 @@
 FROM scolagreco/docker-alpine:v3.7.0
 MAINTAINER Stefano Colagreco <stefano@colagreco.it>
 
-ENV NGINX_VERSION 1.10.3
+ENV NGINX_VERSION 1.12.2
 
 ENV CONFIG "\
 	--prefix=/etc/nginx \
@@ -48,7 +48,7 @@ ENV CONFIG "\
 
 ENV CFLAGS "-O2 -pipe -fomit-frame-pointer -march=core2 -mtune=intel"
 
-COPY ./nginx-1.10.3.tar.gz /nginx.tar.gz
+COPY ./nginx-1.12.2.tar.gz /nginx.tar.gz
 
 RUN 	addgroup -S nginx && \
 	adduser -D -S -h /var/cache/nginx -s /sbin/nologin -G nginx nginx && \
