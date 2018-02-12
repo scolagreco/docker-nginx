@@ -1,4 +1,4 @@
-FROM scolagreco/docker-alpine:v3.4
+FROM scolagreco/docker-alpine:v3.7.0
 MAINTAINER Stefano Colagreco <stefano@colagreco.it>
 
 ENV NGINX_VERSION 1.10.3
@@ -56,7 +56,7 @@ RUN 	addgroup -S nginx && \
 		gcc \
 		libc-dev \
 		make \
-		openssl-dev \
+		libressl-dev \
 		pcre-dev \
 		zlib-dev \
 		openldap-dev \

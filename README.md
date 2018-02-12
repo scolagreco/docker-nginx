@@ -10,4 +10,5 @@ Il tar.gz di Nginx è compreso.
 
 ## Versions
 
-
+Alpine Linux: 3.7.0
+Nginx: 1.10.3
