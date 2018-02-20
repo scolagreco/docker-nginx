@@ -1,3 +1,6 @@
+[![Docker Stars](https://img.shields.io/docker/stars/scolagreco/docker-nginx.svg)](https://hub.docker.com/r/scolagreco/docker-nginx/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/scolagreco/docker-nginx.svg)](https://hub.docker.com/r/scolagreco/docker-nginx/)
+
 # Docker Image Nginx
 
 Dockerfile per creare una Docker Image con Nginx compilato su Alpine Linux.
